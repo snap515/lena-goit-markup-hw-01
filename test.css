@@ -1,0 +1,48 @@
+.card {
+    position: relative;
+    top: 0;
+    right: 0;
+    display: inliine-block;
+    max-width: 500px;
+    padding: 60px;
+
+    /* padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px; */
+
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.list {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    list-style-type: none;
+    margin: 0%;
+}
+
+.item {
+top: 0;
+right: 0;
+    border-radius: 50%;
+}
+
+.product {
+    margin-left: 20px;
+}
+
+.button {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border-radius: 60%;
+}
+
+.item:not(last-child) {
+    margin-right: 20px;
+}
+
+.list-button {
+position: relative;
+}
