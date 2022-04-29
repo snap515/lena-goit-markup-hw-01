@@ -3,8 +3,93 @@ root {
     --main-color: #E5E5E5;
     --footer-color: #2F303A;
     --text-color: #757575;
+    --white-color: #fff;
+    --title-color: #212121;
 }
 
 body {
-    background-color: var(--brand-color);
+    background-color: var(--white-color);
+    margin: 0 auto;
+
+    font-family: Roboto, sans-serif;
+    color: #212121;
+    letter-spacing: 0.03;
 }
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    color: #212121;
+}
+
+.container {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* ---header--- */
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    color: #2196F3;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.logo-link {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.header-list {
+    display: flex;
+}
+
+.header-link:hover,
+.header-link:focus {
+    color: #2196F3;
+}
+
+.header-item:not(:last-child) {
+    margin-right: 50px;
+}
+
+.header-contacts {
+    display: flex;
+}
+
+.contacts-link:hover,
+.contacts-link:focus {
+    color: #2196F3;
+}
+
+.contacts-link {
+    color: #757575;
+}
+
+
+
+/*--hero--*/
+
+/* --our features-- */
+
+/* --our projects-- */
+
+/* --our team-- */
+
+/* --footer-- */
